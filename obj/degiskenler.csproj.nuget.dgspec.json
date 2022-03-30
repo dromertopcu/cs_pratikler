@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/drot/VS Storage/degiskenler/degiskenler.csproj": {}
+    "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj": {}
   },
   "projects": {
-    "/Users/drot/VS Storage/degiskenler/degiskenler.csproj": {
+    "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/drot/VS Storage/degiskenler/degiskenler.csproj",
+        "projectUniqueName": "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj",
         "projectName": "degiskenler",
-        "projectPath": "/Users/drot/VS Storage/degiskenler/degiskenler.csproj",
+        "projectPath": "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj",
         "packagesPath": "/Users/drot/.nuget/packages/",
-        "outputPath": "/Users/drot/VS Storage/degiskenler/obj/",
+        "outputPath": "/Users/drot/VS Storage/cs_pratikler/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/drot/.nuget/NuGet/NuGet.Config"

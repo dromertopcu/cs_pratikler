@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{F89B4351-4DFC-4C3B-B96C-045CE21E9813}|Default">
+  <MonoDevelop.Ide.ItemProperties.degiskenler PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="degiskenler" expanded="True">
+            <Node name="degiskenler" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
