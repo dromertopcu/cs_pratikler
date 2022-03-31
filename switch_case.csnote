@@ -1,4 +1,4 @@
-int month =Date.DateTime.Now.Month;
+int month =DateTime.Now.Month;
 
 switch (month)
 {
@@ -17,8 +17,8 @@ switch (month)
 
 
     default:
-        Console.WriteLine("Yanlış veri girişi yaptınızz")
-    break;
+        Console.WriteLine("Yanlış veri girişi yaptınızz");
+        break;
 }
 
 switch (month)
