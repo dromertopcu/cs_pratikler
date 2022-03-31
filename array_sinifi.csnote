@@ -1,0 +1,31 @@
+int[] sayiDizisi ={23,12,4,86,72,3,11,17};
+
+foreach (var sayi in sayiDizisi)
+{
+    Console.WriteLine(sayi);
+}
+
+Array.Sort(sayiDizisi);
+
+foreach (var sayi in sayiDizisi)
+{
+    Console.WriteLine(sayi);
+}
+
+//2. indexten itibaren 2 tane elemanı 0'lar.
+Array.Clear(sayiDizisi,2,2);
+
+foreach (var sayi in sayiDizisi)
+{
+    Console.WriteLine(sayi);
+}
+
+Array.Reverse(sayiDizisi);
+
+Console.WriteLine(Array.IndexOf(sayiDizisi,23));
+
+Array.Resize<int>(ref sayiDizisi,15);
+foreach (var sayi in sayiDizisi)
+{
+    Console.WriteLine(sayi);
+}
