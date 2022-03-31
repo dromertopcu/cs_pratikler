@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj",
-      "projectName": "degiskenler",
-      "projectPath": "/Users/drot/VS Storage/cs_pratikler/degiskenler.csproj",
+      "projectUniqueName": "/Users/drot/VS Storage/cs_pratikler/cs_pratikler.csproj",
+      "projectName": "cs_pratikler",
+      "projectPath": "/Users/drot/VS Storage/cs_pratikler/cs_pratikler.csproj",
       "packagesPath": "/Users/drot/.nuget/packages/",
       "outputPath": "/Users/drot/VS Storage/cs_pratikler/obj/",
       "projectStyle": "PackageReference",

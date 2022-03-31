@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "degiskenler/1.0.0": {
+      "cs_pratikler/1.0.0": {
         "runtime": {
-          "degiskenler.dll": {}
+          "cs_pratikler.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "degiskenler/1.0.0": {
+    "cs_pratikler/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

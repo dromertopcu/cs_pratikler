@@ -1,0 +1,15 @@
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.csproj.AssemblyReference.cache
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.AssemblyInfoInputs.cache
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.AssemblyInfo.cs
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.csproj.CoreCompileInputs.cache
+/Users/drot/VS Storage/cs_pratikler/bin/Debug/net6.0/cs_pratikler
+/Users/drot/VS Storage/cs_pratikler/bin/Debug/net6.0/cs_pratikler.deps.json
+/Users/drot/VS Storage/cs_pratikler/bin/Debug/net6.0/cs_pratikler.runtimeconfig.json
+/Users/drot/VS Storage/cs_pratikler/bin/Debug/net6.0/cs_pratikler.dll
+/Users/drot/VS Storage/cs_pratikler/bin/Debug/net6.0/cs_pratikler.pdb
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.dll
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/refint/cs_pratikler.dll
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.pdb
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/cs_pratikler.genruntimeconfig.cache
+/Users/drot/VS Storage/cs_pratikler/obj/Debug/net6.0/ref/cs_pratikler.dll

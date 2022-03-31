@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{F89B4351-4DFC-4C3B-B96C-045CE21E9813}|Default">
-  <MonoDevelop.Ide.ItemProperties.degiskenler PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.cs_pratikler PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="degiskenler" expanded="True">
-            <Node name="degiskenler" expanded="True">
+          <Node name="cs_pratikler" expanded="True">
+            <Node name="cs_pratikler" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" selected="True" />
               </Node>
