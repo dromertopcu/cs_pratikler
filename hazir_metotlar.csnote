@@ -1,0 +1,51 @@
+string degisken = "Dersimiz C#, Hoşgelmişseniz !";
+string degisken2 = "C#, Hoşgelmişseniz !";
+//Length
+Console.WriteLine(degisken.Length);
+
+//ToUpper , ToLower
+Console.WriteLine(degisken.ToUpper());
+Console.WriteLine(degisken.ToLower());
+
+//Concat
+Console.WriteLine(String.Concat(degisken," Merhaba!"));
+
+//Compare, CompareTo
+Console.WriteLine(degisken.CompareTo(degisken2)); // 0: Sıralamaları aynı,1: Sıralamada örnek daha sonra geliyor,-1: Sıralamada örnek daha önce geliyor
+Console.WriteLine(String.Compare(degisken,degisken2,true)); //true olduğunda büyük küçük harfi ignore ediyor ve sıralama pozisyonları aynı yani 0 çıkıyor. 
+Console.WriteLine(String.Compare(degisken,degisken2,false)); // false olduğunda ignore etme diyoruz ve degisken değeri daha sonra gelmiş oluyor
+
+// Contains
+Console.WriteLine(degisken.Contains(degisken2));
+Console.WriteLine(degisken.StartsWith("Dersimiz"));
+Console.WriteLine(degisken.EndsWith(" !"));
+
+// IndexOf
+Console.WriteLine(degisken.IndexOf("C#"));
+Console.WriteLine(degisken.IndexOf("Omer"));
+Console.WriteLine(degisken.LastIndexOf("i"));
+
+// Insert
+Console.WriteLine(degisken.Insert(0,"Merhaba"));
+
+//PadLeft, PadRight
+Console.WriteLine(degisken + degisken2.PadLeft(30));
+Console.WriteLine(degisken + degisken2.PadLeft(30,'*'));
+Console.WriteLine(degisken + degisken2.PadLeft(50));
+Console.WriteLine(degisken + degisken2.PadLeft(50,'-'));
+
+// Remove
+Console.WriteLine(degisken.Remove(10));
+Console.WriteLine(degisken.Remove(5,3));
+Console.WriteLine(degisken.Remove(0,1));
+
+// Replace
+Console.WriteLine(degisken.Replace("C#","CSharp"));
+Console.WriteLine(degisken.Replace(" ","*"));
+
+// Split
+Console.WriteLine(degisken.Split(' ')[1]);
+
+// Substring
+Console.WriteLine(degisken.Substring(4));
+Console.WriteLine(degisken.Substring(4,6));
