@@ -44,7 +44,7 @@ Console.WriteLine(degisken.Replace("C#","CSharp"));
 Console.WriteLine(degisken.Replace(" ","*"));
 
 // Split
-Console.WriteLine(degisken.Split(' ')[1]);
+Console.WriteLine(degisken.Split()[1]);
 
 // Substring
 Console.WriteLine(degisken.Substring(4));
