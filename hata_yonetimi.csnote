@@ -21,7 +21,7 @@ catch (ArgumentNullException ex)
     Console.WriteLine("Boş değer girdiniz");
     Console.WriteLine(ex);
 }
-catch(FormatException ex)
+(FormatException ex)
 {
     Console.WriteLine("Veri tipi uygun değil");
     Console.WriteLine(ex);

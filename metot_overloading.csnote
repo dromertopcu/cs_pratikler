@@ -27,7 +27,7 @@ instance.EkranaYazdir(Convert.ToString(ifade));
 //metotAdi + parametre sayisi + parametre
 
 
-class Metotlar
+ Metotlar
 {
     public void Topla(int a, int b, out int toplam)
     {
