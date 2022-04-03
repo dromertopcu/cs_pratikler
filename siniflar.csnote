@@ -14,21 +14,14 @@
 // * Internal --> Bulunduğu csproject içinde
 // * Protected --> Sadece tanımlandığı sınıfta ve inherited olanlarda
 
-Calisan calisan1 = new Calisan();
-calisan1.Ad = "Ayşe";
-calisan1.Soyad = "Kara";
-calisan1.No = 43572443;
-calisan1.Departman = "İnsan Kaynakları";
-
+Calisan calisan1 = new Calisan("Ayşe","Kara",43572443,"İnsan Kaynakları");
 calisan1.CalisanBilgileri();
 
-Calisan calisan2 = new Calisan();
-calisan2.Ad = "Deniz";
-calisan2.Soyad = "Arda";
-calisan2.No = 12346723;
-calisan2.Departman = "Satın Alma";
-
+Calisan calisan2 = new Calisan("Deniz","Arda",12346723,"Satın Alma");
 calisan2.CalisanBilgileri();
+
+Calisan calisan3 = new Calisan("Ömer","Topcu");
+calisan3.CalisanBilgileri();
 
 class Calisan
 {
@@ -36,6 +29,19 @@ class Calisan
     public string Soyad;
     public int No;
     public string Departman;
+
+    public Calisan(string Ad, string Soyad, int No, string Departman){
+        this.Ad = Ad;
+        this.Soyad = Soyad;
+        this.No = No;
+        this.Departman = Departman;
+    }
+    public Calisan(string Ad, string Soyad){
+        this.Ad = Ad;
+        this.Soyad = Soyad;
+    }
+
+    public Calisan(){}
 
     public void CalisanBilgileri(){
         Console.WriteLine("Çalışan Adı: {0}", Ad);
