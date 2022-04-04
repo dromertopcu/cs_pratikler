@@ -10,6 +10,12 @@ Console.WriteLine("Çalışan Sayısı : {0}",Calisan.CalisanSayisi);
 
 Console.WriteLine("Toplama işlemi sonucu : {0}",Islemler.Topla(100,200));
 Console.WriteLine("Toplama işlemi sonucu : {0}",Islemler.Cikar(100,200));
+
+Calisan_Static.calisanStaticIsim = "deneme";
+Calisan_Static.calisanStaticSoyisim = "isim";
+
+
+Console.WriteLine("Toplama statik sonucu : {0}",Calisan_Static.calisanStaticSoyisim);
 class Calisan
 {
     private static int calisanSayisi;
@@ -42,4 +48,19 @@ class Calisan
         {
             return sayi1 - sayi2;
         }
+
     }
+
+static class Calisan_Static
+{
+    private static int calisanStaticSayisi ;
+    public static string calisanStaticIsim ;
+    public static string calisanStaticSoyisim ;
+
+    public static int CalisanStaticSayisi { get => calisanStaticSayisi; }
+    
+    static Calisan_Static(){ 
+        calisanStaticSayisi = 0;
+        calisanStaticIsim = "";
+        calisanStaticSoyisim = "";}
+}

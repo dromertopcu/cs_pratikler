@@ -1,0 +1,17 @@
+public class Canlılar // publicten sonra sealed yazsaydık herhangi bir yere kalıtım veremeyecekti.
+{
+    protected void Beslenme(){
+        Console.WriteLine("Canlılar beslenir.");
+    }
+    protected void Solunum(){
+        Console.WriteLine("Canlılar solunum yapar.");
+    }
+    protected void Boşaltım(){
+        Console.WriteLine("Canlılar boşaltım yapar.");
+    }
+
+    public virtual void UyaranlaraTepki(){
+        Console.WriteLine("Canlılar uyaranlara tepki verir.");
+    }
+
+}

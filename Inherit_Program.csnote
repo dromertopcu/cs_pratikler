@@ -1,0 +1,5 @@
+TohumluBitkiler tohumluBitki = new TohumluBitkiler();
+tohumluBitki.TohumlaCogalma();
+
+Kuşlar martı = new Kuşlar();
+martı.Uçma();
